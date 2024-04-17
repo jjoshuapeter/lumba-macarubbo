@@ -1,0 +1,61 @@
+{
+    "packages": [
+        {
+            "name": "rmunate/spell-number",
+            "version": "v1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rmunate/SpellNumber.git",
+                "reference": "c225b10c03a82570c0be2ad0a1e916c2637aadcf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rmunate/SpellNumber/zipball/c225b10c03a82570c0be2ad0a1e916c2637aadcf",
+                "reference": "c225b10c03a82570c0be2ad0a1e916c2637aadcf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "time": "2023-02-13T12:59:28+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Rmunate\\Utilities\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Raul Mauricio Uñate Castro",
+                    "email": "raulmauriciounate@gmail.com"
+                }
+            ],
+            "description": "Convierta de números a letras, ideal para uso en facturas, remisiones ó similares.",
+            "keywords": [
+                "altum",
+                "letras",
+                "numeros",
+                "rmunate",
+                "spell"
+            ],
+            "support": {
+                "issues": "https://github.com/rmunate/SpellNumber/issues",
+                "source": "https://github.com/rmunate/SpellNumber/tree/v1.0.0"
+            },
+            "install-path": "../rmunate/spell-number"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
